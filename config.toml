@@ -1,8 +1,8 @@
 baseURL = "/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "Hugo Apéro"
-author = "Alison Hill"
+title = "Cleber Santos"
+author = "Cleber Santos"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
 disqusShortname = "" # see params.utterances to use utterances instead of Disqus
@@ -28,11 +28,11 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "RStudio"
-  orgLocal = "Anywhere"
-  description = "A modern, beautiful, and easily configurable blog theme for Hugo."
-  favicon = "/img/favicon.ico"
-  logo = "/img/blogophonic-mark-dark.png"
+  orgName = "Cleber Santos"
+  orgLocal = ""
+  description = "Cleber Santos Personal Website"
+  favicon = "/img/praga.png"
+  logo = "/img/praga.png"
   mainSections = ["blog", "project", "talk"]
   navallcaps = true
   # show/hide social icons in site header & footer
@@ -48,7 +48,7 @@ enableEmoji = true
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "sky"
+  theme = "forest"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -61,8 +61,8 @@ enableEmoji = true
   # serif options: Fraunces / EB Garamond / Bitter
   # sans-serif options: Commissioner / Atkinson Hyperlegible / Metropolis
   # if you import your own fonts, name them here too
-  customtextFontFamily = "Commissioner"
-  customheadingFontFamily = "Fraunces"
+  customtextFontFamily = ""
+  customheadingFontFamily = ""
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
   textFontFamily = "sans-serif"
@@ -77,8 +77,8 @@ enableEmoji = true
     label = "comments :crystal_ball:"
 
   # Configuration of math rendering
-  [params.math]
-    renderer = "katex" # one of "mathjax" / "katex" 
+ # [params.math]
+ #   renderer = "katex" # one of "mathjax" / "katex" 
 
   # Social icons may appear on homepage and in site header or footer
   # Configure show/hide above - add as many as you like below
@@ -88,31 +88,32 @@ enableEmoji = true
   [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://github.com/apreshill/apero"
-  [[params.social]]
-      icon      = "facebook-square" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.facebook.com/hashtag/ap%C3%A9ro"
-  [[params.social]]
-      icon      = "instagram" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.instagram.com/explore/tags/apero/"
+      url       = "https://github.com/epicleber"
+   [[params.social]]
+      icon      = "envelope" # icon name without the 'fa-'
+      icon_pack = "far"
+      url       = "mailto:cleber.vini@yahoo.com.br"
   [[params.social]]
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://twitter.com/hashtag/apéro"
-  [[params.social]]
-      icon      = "impactstory" # icon name without the 'fa-'
-      icon_pack = "ai"
-      url       = "https://impactstory.org/u/0000-0002-8082-1890"
+      url       = "https://twitter.com/Epidemio_Logic"
   [[params.social]]
       icon      = "orcid" # icon name without the 'fa-'
       icon_pack = "ai"
-      url       = "http://orcid.org/0000-0002-8082-1890"
+      url       = "https://orcid.org/0000-0001-5710-2866"
   [[params.social]]
-      icon      = "rss" # icon name without the 'fa-'
-      icon_pack = "fas"
-      url       = "/blog/index.xml"
+      icon      = "lattes" # icon name without the 'fa-'
+      icon_pack = "ai"
+      url       = "http://lattes.cnpq.br/9338000010851060"
+  [[params.social]]
+      icon      = "google-scholar" # icon name without the 'fa-'
+      icon_pack = "ai"
+      url       = "https://scholar.google.com/citations?user=kCXwwl0AAAAJ&hl=pt-BR&oi=ao"
+  [[params.social]]
+      icon      = "researchgate" # icon name without the 'fa-'
+      icon_pack = "ai"
+      url       = "https://www.researchgate.net/profile/Cleber-Santos-2"
+
 
 [taxonomies]
   category = "categories"
@@ -122,35 +123,11 @@ enableEmoji = true
 [menu]
   # Configure header 
   [[menu.header]]
-    name = "About"
-    title = "About Blogophonic"
-    url = "/about/"
+    name = "CV"
+    title = "CV"
+    url = "/CV/"
     weight = 1
-  [[menu.header]]
-    name = "Blog"
-    title = "Blog"
-    url = "/blog/"
-    weight = 2
-  [[menu.header]]
-    name = "Projects"
-    title = "Project Portfolio"
-    url = "/project/"
-    weight = 3
-  [[menu.header]]
-    name = "Talks"
-    title = "Talks"
-    url = "/talk/"
-    weight = 4
-  [[menu.header]]
-    name = "A collection"
-    title = "A collection"
-    url = "/collection/"
-    weight = 5
-  [[menu.header]]
-    name = "Elements"
-    title = "Element Page"
-    url = "/elements/"
-    weight = 6
+ 
     
   # Configure footer  
   [[menu.footer]]
@@ -158,16 +135,7 @@ enableEmoji = true
     title = "License"
     url = "/license/"
     weight = 1
-  [[menu.footer]]
-    name = "Contact"
-    title = "Contact form"
-    url = "/contact/"
-    weight = 2
-  [[menu.footer]]
-    name = "Contributors"
-    title = "Contributors"
-    url = "/contributors/"
-    weight = 3
+  
 
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]
