@@ -127,7 +127,7 @@ enableEmoji = true
 
 [menu]
    #Configure header 
-  [[menu.header]]
+  #[[menu.header]]
  
     
   # Configure footer  
