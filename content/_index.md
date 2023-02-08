@@ -6,7 +6,7 @@ description: Hi! I'm Cleber Vinicius Brito dos Santos. I'm a third-year doctorat
 
 image_left: false
 images:
-- img/cleber-avatar.jpeg
+- img/cleber-avatar.jpg
 show_action_link: true
 show_social_links: true
 subtitle:
