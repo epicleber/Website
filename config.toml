@@ -132,6 +132,10 @@ enableEmoji = true
 #    title = "CV"
 #    url = "Resumé.pdf"
 #    weight = 1
+   name = "Resumé"
+   title = "Resumé"
+   url = "/static/Resumé.pdf"
+   weight = 1
  
     
   # Configure footer  
