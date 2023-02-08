@@ -116,7 +116,7 @@ enableEmoji = true
   [[params.social]]
       icon      = "cv" # icon name without the 'fa-'
       icon_pack = "ai"
-      url       = "/static/Resumé.pdf"
+      url       = "/static/cv.pdf"
 
 
 
@@ -130,7 +130,7 @@ enableEmoji = true
   [[menu.header]]
     name = "Resumé"
     title = "Resumé"
-    url = "/static/Resumé.pdf"
+    url = "/static/cv.pdf"
     weight = 1
  
     
