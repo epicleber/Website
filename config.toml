@@ -32,7 +32,7 @@ enableEmoji = true
   orgLocal = ""
   description = "Cleber Santos Personal Website"
   favicon = "/img/praga.png"
-  logo = "/img/Logo CVBdS.svg"
+  logo = "/img/Logo CVBdS.png"
   mainSections = ["blog", "project", "talk"]
   navallcaps = true
   # show/hide social icons in site header & footer
