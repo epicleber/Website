@@ -126,8 +126,8 @@ enableEmoji = true
   tag = "tags"
 
 [menu]
-  # Configure header 
-#  [[menu.header]]
+   Configure header 
+  [[menu.header]]
 #    name = "CV"
 #    title = "CV"
 #    url = "Resumé.pdf"
