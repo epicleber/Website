@@ -128,10 +128,6 @@ enableEmoji = true
 [menu]
    #Configure header 
   [[menu.header]]
-    name = ""
-    title = ""
-    url = ""
-    weight = 1
  
     
   # Configure footer  
