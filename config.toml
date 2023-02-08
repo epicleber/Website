@@ -128,9 +128,9 @@ enableEmoji = true
 [menu]
    #Configure header 
   [[menu.header]]
-    name = "Resumé"
-    title = "Resumé"
-    url = "https://github.com/epicleber/Website/raw/master/cv.pdf"
+    name = ""
+    title = ""
+    url = ""
     weight = 1
  
     
