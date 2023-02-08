@@ -125,7 +125,7 @@ enableEmoji = true
   [[menu.header]]
     name = "CV"
     title = "CV"
-    url = "/Resumé.pdf"
+    url = "Resumé.pdf"
     weight = 1
  
     
