@@ -126,7 +126,7 @@ enableEmoji = true
   tag = "tags"
 
 [menu]
-   Configure header 
+   #Configure header 
   [[menu.header]]
     name = "Resumé"
     title = "Resumé"
